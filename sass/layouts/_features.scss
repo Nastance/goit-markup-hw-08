@@ -50,17 +50,18 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 450px;
+//     width: 450px;
+    width: 100%;
     height: 120px;
     background-color: #f5f4fa;
 
-    @include for-size(tablet-landscape) {
-      width: 354px;
-    }
+//     @include for-size(tablet-landscape) {
+//       width: 354px;
+//     }
 
-    @include for-size(desktop) {
-      width: 270px;
-    }
+//     @include for-size(desktop) {
+//       width: 270px;
+//     }
   }
 
   .icon {
