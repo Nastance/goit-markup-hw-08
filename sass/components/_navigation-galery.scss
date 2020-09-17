@@ -18,8 +18,8 @@
 
   @include for-size(tablet-landscape) {
     flex-wrap: nowrap;
-    justify-content: space-between;
-    width: 641px;
+    justify-content: center;
+//     width: 641px;
   }
 
   .link.button {
